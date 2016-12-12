@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: jamshid
- * Date: 12/6/16
- * Time: 2:15 AM
- */
 //Dynamically add Javascript files to header page
 if(!function_exists('add_js')){
     function add_js($file='')
@@ -61,6 +55,7 @@ if(!function_exists('add_css')){
     }
 }
 
+//Putting our CSS and JS files together
 if(!function_exists('put_headers')){
     function put_headers()
     {
