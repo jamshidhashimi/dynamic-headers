@@ -5,7 +5,7 @@ if(!function_exists('add_js')){
     {
         $str = '';
         $ci = &get_instance();
-        $header_js  = $ci->config->item('header_js');
+        $header_js = $ci->config->item('header_js');
 
         if(empty($file)){
             return;
